@@ -77,8 +77,12 @@ func startSingle(fileName string, Options StartOptions, wokerlist []WriterWorker
 			// 增加的单行数据
 			addSvrValInfoList := ValInfoList{}
 			addCliValInfoList := ValInfoList{}
+			rowCellLen := len(sheet.Rows[globalKey.Raw].Cells)
 			for cellIndex, cell := range row.Cells {
 				text := cell.String()
+				if cellIndex >= rowCellLen {
+					break
+				}
 				addkeyName := sheet.Rows[globalKey.Raw].Cells[cellIndex].String()
 				addkeyType := sheet.Rows[globalType.Raw].Cells[cellIndex].String()
 				if sheet.Rows[globalOutSvr.Raw].Cells[cellIndex].String() == TRUE { //是否导出

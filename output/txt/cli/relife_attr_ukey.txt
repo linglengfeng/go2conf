@@ -1,0 +1,35 @@
+{
+	"attr":{
+		" CHR":[{
+		"id": 1,
+		"attr": " CHR",
+		"name": "颜值"
+		}],
+		" STR":[{
+		"id": 2,
+		"attr": " STR",
+		"name": "体质"
+		}],
+		" INT":[{
+		"id": 3,
+		"attr": " INT",
+		"name": "智力"
+		}],
+		" MNY":[{
+		"id": 4,
+		"attr": " MNY",
+		"name": "家境"
+		}],
+		" SPR":[{
+		"id": 5,
+		"attr": " SPR",
+		"name": "快乐"
+		}],
+		" LIF":[{
+		"id": 6,
+		"attr": " LIF",
+		"name": "生命"
+		}]
+	}
+
+}

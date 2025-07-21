@@ -23,10 +23,10 @@ get_age_name({10, "name2"}) ->
 get_age_name(_) ->
 	[].
 
-get_id_name({1, "name2"}) ->
-	[#cfg_test11_people1_ukey{id=1,name="name2",age=10,sex=1,items=[1,2,3],desc="说明1"}];
 get_id_name({2, "name2"}) ->
 	[#cfg_test11_people1_ukey{id=2,name="name2",age=10,sex=2,items=[1,2,4],desc="说明2"}];
+get_id_name({1, "name2"}) ->
+	[#cfg_test11_people1_ukey{id=1,name="name2",age=10,sex=1,items=[1,2,3],desc="说明1"}];
 get_id_name(_) ->
 	[].
 

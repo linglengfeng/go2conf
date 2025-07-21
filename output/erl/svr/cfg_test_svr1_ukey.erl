@@ -4,10 +4,10 @@
 
 -record(cfg, {id, name, age, sex, items}).
 
-get_id({1}) ->
-	[#cfg{id=1,name="name2",age=10,sex=1,items=[1,2,3]}];
 get_id({2}) ->
 	[#cfg{id=2,name="name2",age=10,sex=2,items=[1,2,4]}];
+get_id({1}) ->
+	[#cfg{id=1,name="name2",age=10,sex=1,items=[1,2,3]}];
 get_id(_) ->
 	[].
 

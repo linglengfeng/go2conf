@@ -19,14 +19,6 @@
 	},
 
 	"id_name":{
-		"2_name2":[{
-		"id": 2,
-		"name": "name2",
-		"age": 11,
-		"sex": 2,
-		"items": [1,2,4],
-		"desc": "说明2"
-		}],
 		"1_name1":[{
 		"id": 1,
 		"name": "name1",
@@ -34,6 +26,14 @@
 		"sex": 1,
 		"items": [1,2,3],
 		"desc": "说明1"
+		}],
+		"2_name2":[{
+		"id": 2,
+		"name": "name2",
+		"age": 11,
+		"sex": 2,
+		"items": [1,2,4],
+		"desc": "说明2"
 		}]
 	},
 
